@@ -1,6 +1,8 @@
 Nodeunit-v1
 ========
 
+Currently an offer to re-maintain fork of [nodeunit](https://github.com/caolan/nodeunit)
+
 Simple syntax, powerful tools. Nodeunit provides easy async unit testing for
 node.js and the browser.
 
