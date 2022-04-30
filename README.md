@@ -1,4 +1,4 @@
-Nodeunit
+Nodeunit-v1
 ========
 
 [![Build Status](https://travis-ci.org/caolan/nodeunit.svg?branch=master)](https://travis-ci.org/caolan/nodeunit)
