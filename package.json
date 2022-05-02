@@ -1,6 +1,6 @@
 {
   "name": "nodeunit-v1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy unit testing for node.js and the browser.",
   "maintainers": [
     {
@@ -89,7 +89,7 @@
   "scripts": {
     "test": "node ./bin/nodeunit"
   },
-  "dependencies": {
+  "unused-dependencies": {
     "template-literal": "^1.0.4"
   }
 }
