@@ -35,9 +35,7 @@ Contributors
 * [sstephenson](https://github.com/sstephenson)
 * [thegreatape](https://github.com/thegreatape)
 * [mmalecki](https://github.com/mmalecki)
-* and thanks to [cjohansen](https://github.com/cjohansen) for input and advice
-  on implementing setUp and tearDown functions. See
-  [cjohansen's fork](https://github.com/cjohansen/nodeunit).
+* [cjohansen](https://github.com/cjohansen/nodeunit).
 
 Also, check out gerad's [nodeunit-dsl](https://github.com/gerad/nodeunit-dsl)
 project, which implements a 'pretty dsl on top of nodeunit'.
