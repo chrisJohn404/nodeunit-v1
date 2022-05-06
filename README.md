@@ -1,10 +1,10 @@
 Nodeunit-v1
 ========
 
-Currently an offer to re-maintain fork of [nodeunit](https://github.com/caolan/nodeunit)
+A zero funding required version of [nodeunit](https://github.com/caolan/nodeunit).
 
-Simple syntax, powerful tools. Nodeunit provides easy async unit testing for
-node.js and the browser.
+Stable and dependable. Nodeunit provides easy async unit testing for
+node.js and the browser.  Simple syntax, powerful tools.
 
 
 Nodeunit was the arguably first testing framework developed for node.
@@ -19,30 +19,6 @@ Features
 * Easy to add test cases with setUp and tearDown functions if you wish
 * Flexible reporters for custom output, built-in support for HTML
 * Allows the use of mocks and stubs
-
-Contributors
-------------
-
-* [caolan](https://github.com/caolan)
-* [alexgorbatchev](https://github.com/alexgorbatchev)
-* [alexkwolfe](https://github.com/alexkwolfe)
-* [azatoth](https://github.com/azatoth)
-* [kadirpekel](https://github.com/kadirpekel)
-* [lambdalisue](https://github.com/lambdalisue)
-* [luebken](https://github.com/luebken)
-* [orlandov](https://github.com/orlandov)
-* [Sannis](https://github.com/Sannis)
-* [sstephenson](https://github.com/sstephenson)
-* [thegreatape](https://github.com/thegreatape)
-* [mmalecki](https://github.com/mmalecki)
-* [cjohansen](https://github.com/cjohansen/nodeunit).
-
-Also, check out gerad's [nodeunit-dsl](https://github.com/gerad/nodeunit-dsl)
-project, which implements a 'pretty dsl on top of nodeunit'.
-
-More contributor information can be found in the
-[CONTRIBUTORS.md](https://github.com/caolan/nodeunit/blob/master/CONTRIBUTORS.md)
-file.
 
 Usage
 -----
@@ -472,3 +448,22 @@ Contributing
 Contributions to the project are most welcome, so feel free to fork and improve.
 When submitting a pull request, please run `make lint` first to ensure
 we're following a consistent coding style.
+
+
+Contributors
+------------
+
+* [caolan](https://github.com/caolan)
+* [alexgorbatchev](https://github.com/alexgorbatchev)
+* [alexkwolfe](https://github.com/alexkwolfe)
+* [azatoth](https://github.com/azatoth)
+* [kadirpekel](https://github.com/kadirpekel)
+* [lambdalisue](https://github.com/lambdalisue)
+* [luebken](https://github.com/luebken)
+* [orlandov](https://github.com/orlandov)
+* [Sannis](https://github.com/Sannis)
+* [sstephenson](https://github.com/sstephenson)
+* [thegreatape](https://github.com/thegreatape)
+* [mmalecki](https://github.com/mmalecki)
+* [cjohansen](https://github.com/cjohansen).
+
