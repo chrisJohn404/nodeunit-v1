@@ -1,13 +1,18 @@
 Nodeunit-v1
 ========
+<a href="https://github.com/chrisjohn404/nodeunit-v1">
+    <img 
+     alt="tag:?"
+     src="https://img.shields.io/github/actions/workflow/status/chrisjohn404/nodeunit-v1/validation.yml?branch=master"
+    >
+</a>
 
 <img src="https://github.com/chrisjohn404/nodeunit-v1/raw/master/img/example_screen.png" />
 
-A zero funding required version of [nodeunit](https://github.com/caolan/nodeunit).
+A highly backwards compatible and hopefully zero funding required version of [nodeunit](https://github.com/caolan/nodeunit).
 
 Stable and dependable. Nodeunit provides easy async unit testing for
 node.js and the browser.  Simple syntax, powerful tools.
-
 
 Nodeunit was the arguably first testing framework developed for node.
 
