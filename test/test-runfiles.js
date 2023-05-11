@@ -177,7 +177,7 @@ exports.testEmptyDir = function (test) {
                     test.done();
                 }
             });
-        }
+        });
     }
 };
 
