@@ -1,0 +1,28 @@
+# This workflow will validate the ljm_constants.json and ljm_startup_configs.json file.
+
+name: test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [6.x, 8.x, 10.x, 12.x, 14.x, 16.x, 18.x, 20.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          python-version: ${{ matrix.node-version }}
+      - name: Execute Tests
+        run: |
+          npm test

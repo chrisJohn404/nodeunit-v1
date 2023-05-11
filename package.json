@@ -91,5 +91,8 @@
   },
   "unused-dependencies": {
     "template-literal": "^1.0.4"
+  },
+  "dependencies": {
+    "uglify-js": "^3.17.4"
   }
 }
