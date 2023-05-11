@@ -116,36 +116,69 @@ exports.testEmptyDir = function (test) {
     var dir2 = __dirname + '/fixtures/dir2';
 
     // git doesn't like empty directories, so we have to create one
-    fs.access(dir2, function (err) {
-        if (err) {
-            fs.mkdirSync(dir2, 0777);
-        }
-
-        // runFiles on empty directory:
-        nodeunit.runFiles([dir2], {
-            moduleStart: function () {
-                test.ok(false, 'should not be called');
-            },
-            testDone: function () {
-                test.ok(false, 'should not be called');
-            },
-            testReady: function () {
-                test.ok(false, 'should not be called');
-            },
-            testStart: function () {
-                test.ok(false, 'should not be called');
-            },
-            log: function () {
-                test.ok(false, 'should not be called');
-            },
-            done: function (assertions) {
-                test.equals(assertions.failures(), 0, 'failures');
-                test.equals(assertions.length, 0, 'length');
-                test.ok(typeof assertions.duration === "number");
-                test.done();
+    try {
+        fs.access(dir2, function (err) {
+            if (err) {
+                fs.mkdirSync(dir2, 0777);
             }
+
+            // runFiles on empty directory:
+            nodeunit.runFiles([dir2], {
+                moduleStart: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testDone: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testReady: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testStart: function () {
+                    test.ok(false, 'should not be called');
+                },
+                log: function () {
+                    test.ok(false, 'should not be called');
+                },
+                done: function (assertions) {
+                    test.equals(assertions.failures(), 0, 'failures');
+                    test.equals(assertions.length, 0, 'length');
+                    test.ok(typeof assertions.duration === "number");
+                    test.done();
+                }
+            });
         });
-    });
+    } catch(err) {
+        fs.exists(dir2, function(err) {
+            if (err) {
+                fs.mkdirSync(dir2, 0777);
+            }
+
+            // runFiles on empty directory:
+            nodeunit.runFiles([dir2], {
+                moduleStart: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testDone: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testReady: function () {
+                    test.ok(false, 'should not be called');
+                },
+                testStart: function () {
+                    test.ok(false, 'should not be called');
+                },
+                log: function () {
+                    test.ok(false, 'should not be called');
+                },
+                done: function (assertions) {
+                    test.equals(assertions.failures(), 0, 'failures');
+                    test.equals(assertions.length, 0, 'length');
+                    test.ok(typeof assertions.duration === "number");
+                    test.done();
+                }
+            });
+        }
+    }
 };
 
 

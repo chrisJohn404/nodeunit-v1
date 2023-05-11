@@ -71,7 +71,7 @@
     "uglify-js": ">=2.7.3"
   },
   "engines": {
-    "node": ">=6.x"
+    "node": ">=0.10.x"
   },
   "bugs": {
     "url": "http://github.com/chrisjohn404/nodeunit/issues"
