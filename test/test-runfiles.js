@@ -148,9 +148,9 @@ exports.testEmptyDir = function (test) {
             });
         });
     } catch(err) {
-        fs.exists(dir2, function(err) {
-            if (err) {
-                fs.mkdirSync(dir2, 0777);
+        fs.exists(dir2, function(doesExist) {
+            if (!doesExist) {
+                fs.mkdirSync(dir2, {recursive: true, mode:777});
             }
 
             // runFiles on empty directory:
