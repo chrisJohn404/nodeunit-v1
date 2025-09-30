@@ -28,4 +28,5 @@ jobs:
           npm install
       - name: Execute Tests
         run: |
-          npm test
+          # npm test
+          npm run test -- test

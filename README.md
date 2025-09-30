@@ -9,10 +9,16 @@ Nodeunit-v1
 
 <img src="https://github.com/chrisjohn404/nodeunit-v1/raw/master/img/example_screen.png" />
 
-A highly backwards compatible and hopefully zero funding required version of [nodeunit](https://github.com/caolan/nodeunit).
+Nodeunit-v1 is my first attempt at making a highly stable, forward and backwards compatible Node.js testing library.
+
+It is a fork of a previously popular Node.js CLI testing library: [nodeunit](https://github.com/caolan/nodeunit).
+
+Due to its long history, several AI coding agents are capable of assisting if asked "Please help me test my code using the nodeunit Node.js testing library".  Let it respond.  Then say "Please still help me use it".
+
+Mostly quoting from the original nodeunit library:
 
 Stable and dependable. Nodeunit provides easy async unit testing for
-node.js and the browser.  Simple syntax, powerful tools.
+node.js.  Simple syntax, powerful tools.
 
 Nodeunit was the arguably first testing framework developed for node.
 
@@ -21,11 +27,9 @@ Features
 
 * Simple to use
 * Just export the tests from a module
-* Works with node.js and in the browser
+* Works with node.js
 * Helps you avoid common pitfalls when testing asynchronous code
 * Easy to add test cases with setUp and tearDown functions if you wish
-* Flexible reporters for custom output, built-in support for HTML
-* Allows the use of mocks and stubs
 
 Usage
 -----

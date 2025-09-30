@@ -1,6 +1,6 @@
 {
-  "name": "nunit",
-  "version": "1.0.1",
+  "name": "nodeunit-v1",
+  "version": "1.0.2",
   "description": "Easy unit testing for node.js and the browser.",
   "maintainers": [
     {
@@ -60,42 +60,53 @@
     {
       "name": "Elijah Insua <tmpvar@gmail.com>",
       "web": "http://tmpvar.com"
+    },
+    {
+      "name": "Chris Johnson",
+      "web": "https://github.com/chrisjohn404"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/chrisjohn404/nunit.git"
+    "url": "http://github.com/chrisjohn404/nodeunit-v1.git"
   },
   "devDependencies": {
     "should": ">=11.1.0",
+    "uglify-js": ">=3.17.4"
+  },
+  "depDevDependencies": {
     "uglify-js": ">=2.7.3"
   },
   "engines": {
     "node": ">=0.10"
   },
   "bugs": {
-    "url": "http://github.com/chrisjohn404/nunit/issues"
+    "url": "http://github.com/chrisjohn404/nodeunit-v1/issues"
   },
-  "license": "MIT",
+  "license": "GPLv2",
   "directories": {
-    "lib": "./lib",
+    "lib": "./lib"
+  },
+  "depDirectories": {
     "doc": "./doc",
     "man": "./man1"
   },
   "bin": {
-    "nunit": "./bin/nunit"
+    "nodeunit": "./bin/nodeunit"
   },
   "depDependencies": {
     "ejs": "^2.5.2",
     "tap": "^16.0.1"
   },
   "scripts": {
-    "test": "node ./bin/nunit"
+    "test": "node ./bin/nodeunit test",
+    "task_runner_test": "node task_runner.js -- test",
+    "build_browser": "node task_runner.js -- browser",
+    "build_commonjs": "node task_runner.js -- commonjs"
   },
   "unused-dependencies": {
     "template-literal": "^1.0.4"
   },
   "dependencies": {
-    "uglify-js": "^3.17.4"
   }
 }
