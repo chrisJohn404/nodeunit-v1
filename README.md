@@ -36,14 +36,18 @@ Status
 
 This library should be working as a CLI testing utility with new versions of node again.  
 
-ToDo list:
-[] Consider building for browser support with uglify-js.
-[] Generate man pages.
-[] Consider integrating linter again.
-[] Consider re-implementing other stripped features.
 
 Primary accomplishments:
-[x] Enabled CLI usage for new and old versions of node.
+- [x] Enabled CLI usage for new and old versions of node.
+- [x] Add .github workflows to test multiple Node.js versions
+
+ToDo list:
+- [] Consider building for browser support with uglify-js.
+- [] Generate man pages.
+- [] Consider integrating linter again.
+- [] Consider re-implementing other stripped features.
+- [] Consider updating installation script
+
 
 Features
 --------
@@ -450,7 +454,7 @@ nodeunit functionality is available.
 
 To run the nodeunit tests do:
 
-    make test
+    npm test 
 
 __Note:__ There was a bug in node v0.2.0 causing the tests to hang, upgrading
 to v0.2.1 fixes this.
