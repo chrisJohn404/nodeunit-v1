@@ -124,5 +124,12 @@ else {
 }
 
 testrunner.run(files, options, function(err) {
-    process.exit(err ? 1 : 0);
+    var nodeMajor = parseInt(process.versions.node.split('.')[0], 10);
+    if (nodeMajor < 4) {
+        setTimeout(function() {
+            process.exit(err ? 1 : 0);
+        }, 100);
+    } else {
+        process.exit(err ? 1 : 0);
+    }
 });
