@@ -13,9 +13,9 @@ Nodeunit-v1
     >
 </a>
 <img src="https://github.com/chrisjohn404/nodeunit-v1/raw/master/img/example_screen.png" />
-![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
+[![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
 
-![dev branch status](https://github.com/github/docs/actions/workflows/validation.yml/badge.svg?branch=dev)(https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml?branch=dev)
+[![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg?branch=dev)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
 
 Nodeunit-v1 is my first attempt at making a highly stable, forward and backwards compatible Node.js testing library.
 
