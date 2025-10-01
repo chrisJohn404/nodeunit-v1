@@ -38,10 +38,12 @@ This library should be working as a CLI testing utility with new versions of nod
 
 
 Primary accomplishments:
+
 - [x] Enabled CLI usage for new and old versions of node.
 - [x] Add .github workflows to test multiple Node.js versions
 
 ToDo list:
+
 - [] Consider building for browser support with uglify-js.
 - [] Generate man pages.
 - [] Consider integrating linter again.
