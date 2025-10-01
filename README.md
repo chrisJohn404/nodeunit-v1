@@ -13,7 +13,8 @@ Nodeunit-v1
     >
 </a>
 <img src="https://github.com/chrisjohn404/nodeunit-v1/raw/master/img/example_screen.png" />
-[![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
+
+[![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg?branch=master)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
 
 [![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg?branch=dev)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
 
