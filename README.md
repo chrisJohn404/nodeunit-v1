@@ -31,6 +31,16 @@ node.js.  Simple syntax, powerful tools.
 
 Nodeunit was the arguably first testing framework developed for node.
 
+Status
+--------
+
+This library should be working as a CLI testing utility with new versions of node again.  
+
+ToDo list:
+[] Generate man pages.
+[] Consider integrating linter again.
+[] Consider re-implementing other stripped features.
+
 Features
 --------
 
