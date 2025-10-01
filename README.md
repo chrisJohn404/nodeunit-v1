@@ -8,6 +8,8 @@ Nodeunit-v1
 </a>
 
 <img src="https://github.com/chrisjohn404/nodeunit-v1/raw/master/img/example_screen.png" />
+[![test](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml/badge.svg)](https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml)
+![dev branch status](https://github.com/github/docs/actions/workflows/validation.yml/badge.svg?branch=dev)(https://github.com/chrisJohn404/nodeunit-v1/actions/workflows/validation.yml?branch=dev)
 
 Nodeunit-v1 is my first attempt at making a highly stable, forward and backwards compatible Node.js testing library.
 
@@ -56,14 +58,14 @@ Installation
 
 There are two options for installing nodeunit:
 
-1. Clone / download nodeunit from [github](https://github.com/caolan/nodeunit),
+1. Clone / download nodeunit from [github](https://github.com/chrisjohn404/nodeunit-v1),
    then:
 
     make && sudo make install
 
 2. Install via npm:
 
-    npm install nodeunit -g
+    npm install nodeunit-v1 -g
 
 API Documentation
 -----------------
@@ -282,8 +284,7 @@ why nodeunit does not currently provide this out of the box.
 
 In the example above, the tests will run when the page is loaded.
 
-The browser-version of nodeunit.js is created in dist/browser when you do, `make
-browser`. You'll need [UglifyJS](https://github.com/mishoo/UglifyJS) installed in
+The browser-version of nodeunit.js is created in dist/browser when you do, `npm run build_browser`. You'll need [UglifyJS](https://github.com/mishoo/UglifyJS) installed in
 order for it to automatically create nodeunit.min.js.
 
 
@@ -304,7 +305,7 @@ submodule. Using submodules makes it easy for developers to download nodeunit
 and run your test suite, without cluttering up your repository with
 the source code. To add nodeunit as a git submodule do the following:
 
-    git submodule add git://github.com/caolan/nodeunit.git node_modules/nodeunit
+    git submodule add git://github.com/chrisjohn404/nodeunit-v1.git node_modules/nodeunit
 
 This will add nodeunit to the node_modules folder of your project. Now, when
 cloning the repository, nodeunit can be downloaded by doing the following:
@@ -452,13 +453,13 @@ That compiler uses __machineout__ reporter and it is useful to use
 with [vim-makegreen](https://github.com/reinh/vim-makegreen).
 
 
-
+<!-- 
 Contributing
 ------------
 
 Contributions to the project are most welcome, so feel free to fork and improve.
 When submitting a pull request, please run `make lint` first to ensure
-we're following a consistent coding style.
+we're following a consistent coding style. -->
 
 
 Contributors
@@ -476,5 +477,6 @@ Contributors
 * [sstephenson](https://github.com/sstephenson)
 * [thegreatape](https://github.com/thegreatape)
 * [mmalecki](https://github.com/mmalecki)
-* [cjohansen](https://github.com/cjohansen).
+* [cjohansen](https://github.com/cjohansen)
+* [chrisjohn404](https://github.com/chrisjohn404).
 
