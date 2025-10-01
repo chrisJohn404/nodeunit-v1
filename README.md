@@ -37,9 +37,13 @@ Status
 This library should be working as a CLI testing utility with new versions of node again.  
 
 ToDo list:
+[] Consider building for browser support with uglify-js.
 [] Generate man pages.
 [] Consider integrating linter again.
 [] Consider re-implementing other stripped features.
+
+Primary accomplishments:
+[x] Enabled CLI usage for new and old versions of node.
 
 Features
 --------
